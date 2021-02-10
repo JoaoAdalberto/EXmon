@@ -9,5 +9,13 @@ Clone the rep and install the dependencies.
 $ cd ex_mon
 $ mix deps.get
 ```
+### Running
+  Start the server, create the player, start the game, and you can choose what move to play, the game ends when the player or the computer reachs 0 life.
+```sh
+$ iex -S mix run
+iex(1)>playername = ExMon.create_player("Jogador 1", :voadora, :carrinho, :canadeacucar)
+iex(2)>ExMon.start_game(playername)
+iex(3)>ExMon.make_move(:voadora)
 
+```
 
