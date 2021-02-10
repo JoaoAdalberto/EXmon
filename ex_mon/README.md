@@ -5,8 +5,9 @@
 ## Installation
 Clone the rep and install the dependencies.
 
+```sh
 $ cd ex_mon
 $ mix deps.get
-
+```
 
 
